@@ -1,12 +1,12 @@
 import React from "react"; 
 
 function Links(props) {
-    console.log(props.links);
+    // console.log(props.links);
   return (
     <div>
         <h3>Links</h3>
-        <a href = {props.links.github}>github</a>
-        <a href = {props.links.linkedin}>linkedin</a>
+        <a href = {props.github}>https://github.com/liza</a>
+        <a href = {props.linkedin}>https://www.linkedin.com/in/liza/</a>
     </div>
   );
 }
